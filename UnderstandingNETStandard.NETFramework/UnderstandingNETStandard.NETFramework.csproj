@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject>UnderstandingNETStandard.NETFramework.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnderstandingNETStandard.Core\UnderstandingNETStandard.Core.csproj" />
+    <ProjectReference Include="..\UnderstandingNETStandard.Producer\UnderstandingNETStandard.Producer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
